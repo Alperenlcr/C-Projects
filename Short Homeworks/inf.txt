@@ -1,0 +1,1 @@
+1 fatih 90 2 alp 80 3 omer 70 4 firat 60
