@@ -1,19 +1,7 @@
-/*
------------SOLUTION-----------
-degiskenler
-denklem, iterasyon sayisi veya sinir hata miktari, ilk bakilacak x degeri, ilk bakilacak aralik genisligi
-
-fonksiyonlar
-denklem(x) --> y
-denkleme gonderme ve konrol(x0, delta_x, kontrol girdisi) --> kok
-
-*/
-
 // durma kosullari
 // iterasyon sayisi
 // gercek kok (P) var ise |P-xn| < hata
 // gercek kok yok ise |x(n+1)-xn| < hata
-
 
 #include <stdio.h>
 
