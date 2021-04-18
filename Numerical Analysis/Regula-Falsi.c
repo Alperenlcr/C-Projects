@@ -12,7 +12,6 @@ float mutlak_deger(float x)
     return x;
 }
 
-// Don't forget to define equation
 float denklem(float x)
 {
     return x*x*x - 2*x*x - 5;
