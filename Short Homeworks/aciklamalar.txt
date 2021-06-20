@@ -1,0 +1,71 @@
+Semboller arasi okunup yaziliyor.
+<
+
+
+PROBLEM 1 icin Aciklamalar
+--------------------------
+
+Degiskenler: Istenilen tabloyu olusturmak icin Double tanimli matris[10][5] iki boyutlu serisi kullanilmistir. Math.h baslik dosyasinda ta- nimli trigonometrik fonksiyonlar, aci degerlerini radyan cinsinden kullandiklari icin bu donusumu gerceklesitrmek amaciyla Double degtorad(int) fonksiyonu gelistirilmistir. Bu donusum yapildiktan sonra radyan degeri radyan degiskenine atanmistir. Cevrim parametreleri olarak i ve j, menu girisleri icin ise char tanimli secim degiskeni kullanilmistir. Ayrica yazi ve menu efektleri icin Genel aciklamalar bolumunde detayli aciklanacak void typeon(int,int,char,int) fonksiyonu kullanilmistir.
+
+Yontem: 0-90 arasi acilari 10'ar dolasarak sin,cos,tan ve cotan deger- lerini, matris[10][5] iki boyutlu dizisine atayan,tanimsiz degerlerde ise diziye 2 degerini atayan cevrim olusturulmustur.
+
+Ekran Ciktisi: Ekran ciktisi olarak, sutun basliklari ile birlikte ekrana matris iki boyutlu dizisi yazdirilmis ve tanimsiz degerlere atanan 2 degeri ile karsilasildiginda INFINITY ibaresinin yazdirilmasi saglanmistir.
+
+
+#
+
+
+PROBLEM 2 icin Aciklamalar
+--------------------------
+
+Degiskenler: Fonksiyonun degerlerini bulabilmek icin y fonksiyonu gelisti- rilmis, verilen aralikta fonksiyonun aldigi en kucuk ve en bu- yuk degerler ek ve eb degiskenlerine, bunlarin x degerleri ise ebx ve eby degiskenlerine atanmistir. Cevrim parametresi olarak i degiskeni kullanilmistir. Menu secimleri icin char tipinde secim degiskeni tanimlanmistir. Bu araliktaki degerlerin ekran ciktilarinin saglamasi icin soru degiskeni gor kullanilmistir. Ayrica ekran ciktisinda ki gorunumun duzenli olmasi icin say degiskeni atanmistir. Yazi efektleri icin Genel'de aciklanacak void typeon(int,int,char,int) fonksiyonu kullanilmistir.
+
+Yontem: Istenilen aralikta x degerlerini dolasip y degerlerini bulan bir dongu olusturulmus ve bu dongu icinde en buyuk ve en kucugun bulunup ilgili degiskenlere atanmasi saglanmistir.
+
+Ekran Ciktisi: Kullaniciya opsiyonel olarak istenilen araliktaki degerlerin ekrana yazdirilmasi secenegi sunulmustur. Bunun disinda fonk- siyonun hangi degerlerde en kucuk ve en buyuk degerleri aldiklari ekrana yazdirilmistir.
+
+$
+
+PROBLEM 3 icin Aciklamalar
+--------------------------
+
+Degiskenler: 5x5 buyukugunde, rasgele secilmis sayilari iceren matris2 iki boyutlu dizisi tanimlanmistir. Bu dizinin esas kosegeni uzerin- deki elemanlarin toplamini tutan toplam ve diger kosegen uzerindeki elemanlarin carpimini tutan carpim degiskenleri tanim- lanmistir. Cevrim parametreleri olarak i ve j degiskenleri kullanilmis, menu girdilerini almak icin ise char olarak secim de- giskeni tanimlanmistir. Ayrica ayrintili olarak Genel Aciklamalar bolumunde aciklanacak olan yazi efektleri fonksiyonu typeon bu problem icin de kullanilmistir.
+
+Yontem: Matrisin sadece esas kosegenini tarayan tek bir cevrim yaratil- mis ve matrisin kare olmasindan faydalanilarak cevrim paramet- resinin aldigi deger diger kosegene aktarilmistir. Bu tek cevrim kullanilarak toplam ve carpim bulunmustur.
+
+Ekran Ciktisi: Once hesaplama yapilirken baz alinacak matris ekrana yazdiril- mistir. Bunun ardindan hesaplanan carpim ve toplam degerinin ekran ciktisi saglanmistir.
+
+
+&
+
+PROBLEM 4 icin Aciklamalar
+--------------------------
+
+Degiskenler: Fonksiyonun koklerini bulmak icin NewtRaphFonk fonksiyonu ta- nimlanmistir. Menu ve program secimleri icin char olarak secim evhay ve onscr degiskenleri kullanilmistir. Algoritmanin calismasi icin ise epsilon,x0,x1 degiskenleri atanmis, algoritmanin takibi icin ise sayac ve defa degiskenleri tanimlanmistir.
+
+Yontem: Iki egrinin kesisim noktasini bulmak icin bu iki egrinin denk- lemleri birbirine esitlenmis ve elde edilen denklem Newton- Raphson metodu ile cozulmustur. Newton-Raphson metodunun be- lirsizlige dustugu noktalar icin yeni degerler alinmasi sag- lanmis ve programin sonsuz donguye girmesini engellemek icin ise her 1000 tahminde bir programin devam etmesi onayi kul- laniciya sorulmustur.
+
+Ekran Ciktisi: Kullaniciya opsiyonel olarak Newton-Raphson metodunun tahmin lerinin ekrana yazdirilmasi secenegi sunulmustur. Program ici bilgilendirmelerin yani sira sonucta fonksiyonun hangi nokta icin Epsilon araliginda cozum sundugu ekrana yazdirilmistir.
+
+
+>
+
+
+PROBLEM 5 icin Aciklamalar
+--------------------------
+Degiskenler: Kullanicidan alinan satis miktari satism degiskeninde depolan- mistir. Verilen kriterlere uygun prim miktarini hesaplayan Double prim_hesapla(int) fonksiyonu yaratilmis menu secimlerini almak icin ise secim degiskeni kullanilmistir. Ayrica yazi efektleri icin, Genel Aciklamalar bolumunde detayli olarak aciklanacak olan typeon fonksiyonu kullanilmistir.
+
+Yontem: Verilen kriterlere gore prim miktarini hesaplayan prim_hesapla fonksiyonu yaratilmis ve kullanicidan alinan her satis miktari icin ana programdan cagirilarak kullanilmistir.
+
+Ekran Ciktisi: Ekrana, prim miktari hesaplanirken, hangi prim katsayilarinin kullanildigi, her satis miktari icin dinamik olarak hesaplanarak yazdirilmistir. Ayrica prim_hesapla fonksiyonunun dondur- dugu prim miktari da ekranda gosterilmistir.
+
+
+;
+
+
+GENEL Aciklamalar
+-----------------
+Programin genelinde butun programlar ve aciklama ekranlari birer fonksi- yon olarak tanimlanmis ve ilgili ana programlardan cagirilmislardir. Bunun disinda programdan cikis icin, prim hesaplamak icin, Newton-Raphson metodunu kullanmak icin, bir fonksiyonun degerlerini bulmak icin de ayri ayri fonksiyonlar yaratilmistir. Newton-Raphson metodu icin gerekli olan fonksiyonun turevi de ayni fonksiyondan sag- lanmis, bu ayrimi yapmak icin de bu fonksiyona tip adi altinda ikinci bir parametre eklenmistir.
+Programin isleyisi ile ilgili olan bu fonksiyonlar disinda, arabirimde kullanilmak uzere cesitli fonksiyonlar yaratilmistir. Bunlar appear, putwindow, sendtoxy, slidelr ve typeon fonksiyonlaridir. Butun bu fonk- siyonlar, ekranda yazilarin cesitli efektlerle belirmelerini, etrafla- rina cerceveler eklenmesini saglamak amaci ile Ali INAL tarafindan ge- listirilmistir. Ancak butun bu fonksiyonlarin ustune oturdugu temel fonksiyon olan ve cursorun ekranda belirli bir konuma tasinmasini sag- layan gotoxy fonksiyonu Microsoft C Compiler icinde tanimli olmadigi icin windows.h baslik dosyasinin komutlarini kullanarak bu fonksiyonun islevini yerine getiren parca http://spike.scu.edu.au/~jmaltby/c.html adresinden alinarak programa eklenmistir.
+
+@
